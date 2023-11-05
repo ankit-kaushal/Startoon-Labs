@@ -1,0 +1,27 @@
+.patient_info_container {
+    padding: 20px 12px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #bcbcbc;
+}
+
+table {
+    border-collapse:separate; 
+    border-spacing: 0 8px;
+}
+
+tr > * + * {
+    padding-left: 40px;
+}
+
+.left_container {
+    color: #002647;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.right_container {
+    color: #2c2b2b;
+    font-weight: 500;
+    font-size: 15px;
+}
